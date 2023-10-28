@@ -1,0 +1,70 @@
+body {
+    background: var(--color-background-1);
+}
+
+.main-page{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    padding: 32px 24px;
+    align-items: center;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.logo{
+    max-width: 200px;
+    object-fit: contain;
+}
+
+.user-info{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 12px;
+    width: 100%;
+    background: var(--color-white);
+}
+
+.benefits-ul-items{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.benefits-li-item{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.visitapp-a{
+    background: var(--color-blue-primary);
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 20px 30px 20px 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.showmore-a{
+    color: var(--color-blue-primary);
+}
+
+.download-sources{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    row-gap: 16px;
+}
